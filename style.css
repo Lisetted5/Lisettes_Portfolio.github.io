@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  justify-content:space-around;
+  background-color: beige;
+  text-align: center;
+}
+
+li{
+  margin:10px;
+  background-color: black; 
+  display:inline;
+}
+
+.links{
+  color:black;
+}
+.linkpic{
+  width: 250px;
+  border-radius: 10%;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover,a:active{
+  text-decoration: none;
+  color:gray;
+}
+
+ul{
+  text-align: left;
+  background-color: black;
+  margin:10px;
+  padding: 20px;
+}
+
+p{
+    margin: 10px;
+    border: solid;
+    border: transparent;
+}
+
+.imgs{
+    border: solid;
+    margin: 10px;
+    padding: 20px;
+  width: 500px;
+}
+
+
+.logo{
+  text-align: left;
+  width: 250px;
+  border-radius: 50%;
+  border: solid, white;
+  margin: 10px;
+  padding: 20px;
+}
+
+h1{
+ 
+}
+
+.resume{
+  border:solid;
+  width:90%;
+}
