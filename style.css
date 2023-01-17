@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   justify-content:space-around;
-  background-color: beige;
+  background-color: #d0d0e1;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ li{
   color:black;
 }
 .linkpic{
-  width: 250px;
+  width: 200px;
   border-radius: 10%;
 }
 
@@ -29,29 +29,35 @@ a:hover,a:active{
   color:gray;
 }
 
+.aboutme{
+  text-align:center;
+  border:solid;
+  width: 700px;
+  color:black;
+}
+
 ul{
-  text-align: left;
+  text-align:left;
   background-color: black;
   margin:10px;
   padding: 20px;
 }
 
 p{
+   width: 500px;;
     margin: 10px;
-    border: solid;
-    border: transparent;
 }
 
 .imgs{
     border: solid;
     margin: 10px;
     padding: 20px;
-  width: 500px;
+     width: 500px;
 }
 
 
 .logo{
-  text-align: left;
+  text-align:left;
   width: 250px;
   border-radius: 50%;
   border: solid, white;
@@ -59,11 +65,14 @@ p{
   padding: 20px;
 }
 
-h1{
- 
-}
 
 .resume{
   border:solid;
-  width:90%;
+  width:70%;
+}
+
+
+.work{
+  color: black;
+  text-decoration: underline;
 }
